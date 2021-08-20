@@ -1,0 +1,30 @@
+.bg-img{
+    background-image: url(https://th.bing.com/th/id/OIP.CDk86290HBYmyRdxWwZoRQHaG-?pid=ImgDet&rs=1);
+    background-size:contain;
+    min-height: 50vh;
+}
+@media(max-width:850px) {
+
+    #disappear-img-txt{
+        display:none;
+    }
+    
+}
+
+.positioning{
+    position:absolute !important;
+    top:200!important;
+    left:100!important;
+    right:0!important;
+}
+@media(max-width:1000px) {
+
+    #disappear-card{
+       position:relative!important;
+    }
+}
+
+.custom-margin{
+    margin-top: 5rem!important;
+}
+
