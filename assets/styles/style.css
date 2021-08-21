@@ -30,6 +30,9 @@
 
 @media(max-width:800px) {
     #mobile-margins{
-        margin:0!important;
+        margin-left:0!important;
+        margin-right:0!important;
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
     }
 }
