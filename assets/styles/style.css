@@ -28,3 +28,8 @@
     margin-top: 5rem!important;
 }
 
+@media(max-width:800px) {
+    #mobile-margins{
+        margin:0!important;
+    }
+}
