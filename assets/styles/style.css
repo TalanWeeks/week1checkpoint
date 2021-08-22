@@ -1,3 +1,7 @@
+:root{
+    scroll-behavior: smooth;
+  }
+
 .bg-img{
     background-image: url(https://media.wired.com/photos/592685717034dc5f91bebb7e/master/pass/TeslaHP-501837086.jpg);
     background-size:cover;
@@ -32,8 +36,9 @@
     #mobile-margins{
         margin-left:0rem!important;
         margin-right:0rem!important;
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important;
+        padding: 1rem !important;
     }
 }
 
@@ -50,3 +55,8 @@
     
     padding-right: 5rem;
 }
+
+@keyframes change-nav-color {
+    from {background-color:secondary;}
+    to {background-color:danger;}
+  }
