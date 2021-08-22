@@ -40,3 +40,13 @@
 .custom-padding{
     padding: inherit;
 }
+
+.custom-font{
+    font-family: 'Short Stack', cursive;
+  }
+
+.txt-over-img-padding{
+    padding-top: 12rem;
+    
+    padding-right: 5rem;
+}
