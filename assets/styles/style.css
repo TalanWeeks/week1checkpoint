@@ -1,7 +1,7 @@
 .bg-img{
-    background-image: url(https://th.bing.com/th/id/OIP.CDk86290HBYmyRdxWwZoRQHaG-?pid=ImgDet&rs=1);
-    background-size:contain;
-    min-height: 50vh;
+    background-image: url(https://media.wired.com/photos/592685717034dc5f91bebb7e/master/pass/TeslaHP-501837086.jpg);
+    background-size:cover;
+    min-height: 60vh;
 }
 @media(max-width:850px) {
 
@@ -30,9 +30,13 @@
 
 @media(max-width:800px) {
     #mobile-margins{
-        margin-left:0!important;
-        margin-right:0!important;
-        margin-top: 5rem !important;
-        margin-bottom: 5rem !important;
+        margin-left:0rem!important;
+        margin-right:0rem!important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
     }
+}
+
+.custom-padding{
+    padding: inherit;
 }
